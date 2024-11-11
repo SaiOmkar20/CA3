@@ -1,0 +1,76 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+body{
+   background-image: url("image/chocolate_Drink.jpg"); 
+   background-size: 100% 950px;
+   
+}
+.contain{
+    width: 300px;
+    height:400px;
+    background-color: rgba(247, 237, 239, 0.116);
+    margin-left:40%;
+    margin-top: 16%;
+    text-align:center;
+    color: cyan;
+}
+.contain h1{
+    font-size:26px;
+    color:aqua;
+}
+.contain.text{
+    position: relative;
+    top: 8%
+
+}
+.inp1{
+    border: none;
+    background-color: rgba(255, 192, 203, 0);
+    border-bottom:3px solid aqua;
+    width:250px;
+    font-size: 23px;
+    margin-top: 40px;
+    outline:none;
+    color:black;
+}
+.inp2{
+    border: none;
+    background-color: rgba(255, 192, 203, 0)  ;
+    border-bottom:4px solid aqua;
+    width:250px;
+    font-size: 20px;
+    margin-top: 50px;
+    outline:none;
+    color:white;
+}
+.text button{
+    width:250px;
+    height:44px;
+    background-color: aquamarine;
+    color:antiquewhite;
+    border:none;
+    font-size:22px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+button-hover{
+    border: 3px solid azure;
+    color:white;
+    font-size:20px;
+    background-color:rgb(12, 94, 94);
+}
+p{
+    margin-top: 30px;
+    font-size:20px;
+}   
+p span{
+    color: aqua;
+    cursor:pointer;
+}
+button:hover{
+    background-color: blueviolet;
+    transition-duration: 0.9s ;
+}
+
